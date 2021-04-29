@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+  Copyright 2019 Ecosoft Co., Ltd.
+  License LGPL-3.0 or later (https://www.gnu.org/licenses/lgpl.html).-->
+<odoo>
+    <record id="report_res_users_template" model="xlsx.template">
+        <field name="res_model">report.res.users</field>
+        <field name="fname">report_res_users.xlsx</field>
+        <field name="name">Report Res User Template</field>
+        <field name="description">Sample Report Res User Tempalte for testing</field>
+        <field name="input_instruction">
+            {
+                '__EXPORT__': {
+                    'res_users': {
+                        'results': {
+                            'A4': 'name${value or ""}#{style=text}'
+                        },
+                    },
+                },
+            }
+        </field>
+    </record>
+    <function model="xlsx.template" name="load_xlsx_template">
+        <value eval="[ref('report_res_users_template')]" />
+    </function>
+</odoo>
