@@ -10,7 +10,7 @@ Bla bla bla...
 """,
     'depends': [],
     'data': [
-        'views/cargo_view.xml',
+        'views/cargo_view.xml'
     ],
 
     'installable': True,

@@ -1,6 +1,5 @@
-from odoo import api, fields, models, _
+from odoo import api, fields, models
 from odoo.exceptions import ValidationError
-
 
 class Cargo(models.Model):
     _name = "manage.cargo"

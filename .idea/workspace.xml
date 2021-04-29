@@ -26,7 +26,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/custom/thuc_tap/models" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../odoo-13.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -49,7 +50,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/odoo-bin" />
-      <option name="PARAMETERS" value="-c odoo.conf --dev xml" />
+      <option name="PARAMETERS" value="-c odoo.conf --dev xml -u thuc_tap" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -67,7 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1619678613098</updated>
       <workItem from="1619678619632" duration="439000" />
-      <workItem from="1619681253219" duration="446000" />
+      <workItem from="1619681253219" duration="2955000" />
     </task>
     <servers />
   </component>
@@ -75,6 +76,6 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/thuc_tap$odoo_bin.coverage" NAME="odoo-bin Coverage Results" MODIFIED="1619681453752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/thuc_tap$odoo_bin.coverage" NAME="odoo-bin Coverage Results" MODIFIED="1619683818666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
